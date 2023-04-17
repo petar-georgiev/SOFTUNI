@@ -1,0 +1,21 @@
+logging:
+    level:
+        org:
+            hibernate:
+                SQL: DEBUG
+                type:
+                    descriptor: TRACE
+spring:
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        password: toor
+        url: jdbc:mysql://localhost:3306/real_deal_exam_db?allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true&serverTimezone=UTC
+        username: root
+    jpa:
+        hibernate:
+            ddl-auto: update
+        open-in-view: false
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQL8Dialect
+                format_sql: true
