@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-msedge",
+            "request": "launch",
+            "name": "Open DOM Introduction - Lab - SoftUni Judge.html",
+            "file": "d:\\SOFTUNI\\JS Advanced\\DOM Introduction\\DOM Introduction - Lab - SoftUni Judge.html"
+        }
+    ]
+}
